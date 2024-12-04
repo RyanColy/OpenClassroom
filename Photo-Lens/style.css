@@ -1,0 +1,297 @@
+a {
+    color: #242424;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+h1{
+    font-size: 3.5em;
+    color: #A5B4FC;
+    font-family: "Montserrat", sans-serif;
+}
+
+p{
+    font-size: 1.1em;
+    color: #F9F8FF;
+    text-align: justify;
+}
+
+li{
+    font-size: 1em;
+    color: #F9F8FF;
+}
+
+em{
+    color: #a5b4fc;
+    font-style: normal
+}
+
+header, footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+}
+
+header nav{
+    gap: 50 px;
+}
+
+body{
+    background-color: #1F2039;
+    font-family: "Manrope", sans-serif;
+    font-size: 1em;
+}
+
+h2{
+    color: #F9F8FF;
+}
+
+.cta{
+    color: white;
+    background: linear-gradient(#8e86b5, #acaeed);
+    border-radius: 50px;
+    padding: 20px 30px;
+    display: inline-block;
+}
+
+.cta:hover{
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+}
+
+.comp{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+}
+
+.png:hover{
+    opacity: 0.5;
+}
+
+section{
+    padding: 80px;
+}
+
+.a-propos_main{
+    width: 50%;
+    margin: auto;
+}
+
+.comp{
+    margin-top: 50px;
+}
+
+.comp h2{
+    margin-top: 50px;
+}
+
+.accueil_introduction {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    gap: 100px;
+    justify-content: center;
+}
+
+.accueil_photo div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+main h2{
+    text-align: center;
+    color: white;
+}
+
+.accueil_photo h2{
+    color: black;
+}
+
+.accueil_photo{
+    background-color: white;
+}
+
+nav a {
+    margin-left: 30px;
+  }
+
+  footer a {
+    margin-left: 30px;
+  }
+
+  .portfolio-section-photos {
+    background-color: white;
+  }
+  
+  .portfolio-section-photos h2 {
+    color: #242424;
+    margin-bottom: 80px;
+  }
+  
+  .grid-paysages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+  }
+  
+  .grid-portraits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+  }
+  
+  .grid-paysages img,
+  .grid-portraits img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .lien-conteneur-photo {
+    position: relative;
+  }
+  
+  .photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+  
+  .lien-conteneur-photo:hover .photo-hover {
+    display: flex;
+  }
+
+  table {
+    color: white;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+  }
+  
+  td,
+  th {
+    padding: 15px;
+    border: 1px solid #a5b4fc;
+    text-wrap: nowrap;
+    
+  }
+  
+  td {
+    padding: 80px;
+  }
+
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    color: white;
+  }
+
+  .form-nom-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  input,
+textarea {
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+}
+
+label {
+    margin-bottom: 10px;
+  }
+  
+  input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+}
+
+caption{
+    font-size: 3em;
+}
+
+.VMP{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; 
+}
+
+@media screen and (max-width: 996px) {
+    header nav {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    header nav img {
+      margin-bottom: 20px;
+    }
+  
+    header,
+    footer {
+      padding: 20px 20px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    section {
+      padding: 50px 20px 50px 20px;
+    }
+  
+    nav a {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+  }
